@@ -1,0 +1,35 @@
+.movies {
+    list-style: none;
+    margin: 0;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.movie {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.movie img {
+    border-radius: 8px;
+}
+
+.movie h3 {
+    font-size: large;
+}
+
+.movie p {
+    font-size: medium;
+}
+
+main {
+    margin-top: 20px;
+    text-align: center;
+}
